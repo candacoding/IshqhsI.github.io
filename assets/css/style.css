@@ -540,6 +540,14 @@ input[type='radio'] {
     margin-left: 1.5rem;
   }
 
+  #loading {
+    z-index: 0;
+  }
+
+  #loading h2 {
+    visibility: hidden;
+  }
+
   #header button {
     display: flex;
   }
@@ -601,30 +609,80 @@ input[type='radio'] {
     transition: all 1s ease-in-out;
   }
 
-  /* Tutup Headerr */
+  .container input {
+    margin-top: 5%;
+  }
 
-  /* Landing */
+  .icon-span {
+    padding-top: 4.5%;
+  }
 
-  #landing {
+  #daftarharga {
+    padding : 0;
+    margin :0;
+    font-size: 12px;
+  }
+
+  .footer-col-6 p {
+    font-size: 8px;
+    margin: 0;
     padding: 0;
   }
 
-  .landing {
-    width: 100%;
+  .hargaclass h2{
+    margin-top: 15%;
+  }
+
+  #categori a {
+    margin:0;
     padding: 0;
-    margin-top: 0.5rem;
   }
 
-  .mt-land {
-    position: absolute;
-    margin-top: 12rem;
-    /* transition: all 0.75s ease-in-out; */
-    width: 100%;
-    /* transition: all 0.8s ease-in; */
+/* 
+  #categori div {
+    margin: 0;
+    padding: 0;
+  } */
+
+  #listjasa {
+    margin: 0;
+    padding: 0;
   }
 
-  .marquee {
-    font-size: 14px;
+  .content {
+    padding: 0;
+    margin: 0;
+  }
+
+  .listjasa {
+    padding: 0;
+    margin: 0;
+  }
+
+  .info-peraturan {
+    display: none;
+  }
+
+  .info-harga{
+    margin: 0;
+    padding: 0;
+    margin: 8%;
+  }
+
+  .info-harga input {
+    width: 90%;
+  }
+
+  .info-nominal {
+    display: none;
+  }
+
+  .nominal-text {
+    display: none;
+  }
+
+  .info-beli {
+    margin-bottom: 20px;
   }
 
   /* Tutup Landing */
