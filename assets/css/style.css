@@ -540,6 +540,14 @@ input[type="radio"] {
   #header button {
     display: flex;
   }
+	
+#loading {
+    z-index: 0;
+  }
+
+  #loading h2 {
+    visibility: hidden;
+  }
 
   .btn-nav {
     background-color: transparent;
@@ -596,6 +604,16 @@ input[type="radio"] {
 
   .content {
     transition: all 1s ease-in-out;
+  }
+
+#daftarharga {
+    padding : 0;
+    margin :0;
+    font-size: 12px;
+  }
+
+  .hargaclass h2{
+    margin-top: 15%;
   }
 
   /* Tutup Headerr */
