@@ -14,5 +14,3 @@ if (btn !== null) {
     bar.classList.toggle('fa-times');
   });
 }
-
-$(window).load(function() { $("#loading").delay(1000).fadeOut("slow"); } )
