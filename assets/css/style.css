@@ -274,16 +274,17 @@ tbody td {
 
 /* preloader */
 #loading {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 0;
-	background: url(https://media.tenor.com/1Mb5pPJ3ehQAAAAi/mobile-legends-bang-bang.gif) 50% no-repeat #fff;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background: url(https://media.tenor.com/1Mb5pPJ3ehQAAAAi/mobile-legends-bang-bang.gif)
+    50% no-repeat #fff;
 }
 
-#loading h2{
+#loading h2 {
   margin-left: 43%;
   margin-top: 40%;
   margin-right: 42%;
@@ -436,8 +437,7 @@ tbody td {
   margin-bottom: 0;
 }
 
-
-.info-tambahan-pesan input{
+.info-tambahan-pesan input {
   padding-bottom: 50px;
 }
 
@@ -450,11 +450,10 @@ tbody td {
   padding: 5px;
 }
 
-input[type="radio"] {
+input[type='radio'] {
   height: 20px;
   margin-top: 35px;
 }
-
 
 /* Animasi Header H1 */
 #header h1 {
@@ -519,6 +518,10 @@ input[type="radio"] {
   margin-top: 14px;
   z-index: 1;
   color: #041629;
+}
+
+.mobi {
+  display: none;
 }
 
 /* Responsive Media */
@@ -664,6 +667,7 @@ input[type="radio"] {
   /* Footer */
   .footer .row {
     display: block;
+    /* display: flex; */
     width: 100%;
   }
   .footer-col-6 {
@@ -673,13 +677,17 @@ input[type="radio"] {
 
   .footer-col-6 p {
     margin-top: 0;
-    max-width: 100%;
+    justify-content: center;
     overflow: hidden;
   }
 
   .footer h1 {
     margin-top: 3rem;
     margin-bottom: 1rem;
+  }
+
+  .pc {
+    display: none;
   }
 
   .payment {
@@ -702,5 +710,20 @@ input[type="radio"] {
 
   .cr {
     color: #999999;
+  }
+
+  #daftarharga {
+    padding: 0;
+    margin: 0;
+    margin-top: 4rem;
+    font-size: 12px;
+  }
+
+  .jarak {
+    padding: 2px;
+  }
+
+  .mobi {
+    display: block;
   }
 }
